@@ -22,5 +22,5 @@ if __name__ == '__main__':
     validator = DataValidator()
     user_inputs = ['12', '34', '56', 'abc', '-7', '89', '22', '27']
 
-    valid_integer_inputs = validator.validate_inputs(user_inputs)
-    print('Valid Positive Integers:', valid_integer_inputs)
+    valid_inputs = validator.validate_inputs(user_inputs)
+    print('Valid Positive Integers:', valid_inputs)
